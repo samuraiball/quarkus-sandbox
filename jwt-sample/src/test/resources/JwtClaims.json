@@ -1,0 +1,12 @@
+{
+  "iss": "https://hirooka.dev/jwt-rbac",
+  "jti": "a-123",
+  "sub": "jdoe-using-jwt-rbac",
+  "upn": "henoheno@hirooka.dev",
+  "preferred_username": "henoheno",
+  "aud": "using-jwt-rbac",
+  "birthdate": "1993-05-27",
+  "groups": [
+    "Echoer"
+  ]
+}
