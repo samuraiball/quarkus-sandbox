@@ -37,6 +37,7 @@ public class ExampleResource {
 
 
     @Route(path = "/reactiveStream")
+    @Produces(MediaType.SERVER_SENT_EVENTS)
     Multi<Employee> reactiveStream(){
         return ReactiveRoutes.asJsonArray(
                 Multi.createFrom().ticks().every(Duration.ofSeconds(1))
